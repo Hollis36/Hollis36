@@ -15,96 +15,40 @@ I am trained in artificial intelligence, biomedical engineering, and mechanical 
 - Physics-informed learning and AI for scientific / engineering systems
 - Optical materials, NIR-II sensing, and AI-assisted characterization
 
-## Selected Research Directions
+## Open-Source Projects
 
-### Multimodal Perception
+### Detection + Vision-Language Models
 
-I am interested in robust perception systems that integrate RGB, infrared, thermal, depth, physical signals, and domain knowledge. Current topics include RGB-T object detection, small-object detection, industrial defect detection, and multimodal representation learning.
+- [**TianWen 天问**](https://github.com/Hollis36/TianWen) — plug vision-language models into your object detector in one config file · [project page](https://hollis36.github.io/tianwen-project-page/)
 
-Representative repositories:
+### UAV and Anti-UAV Perception
 
-- `DroneVehicle` — multimodal UAV-view vehicle detection
-- `MFARainbowNet` — multimodal fusion network research
-- `GPE-CAFM-RGBD-DefectDetection` — RGB-D industrial defect detection
+- [**RA-CMCD**](https://github.com/Hollis36/ra-cmcd-code) — reliability-aware cross-model consensus distillation for small-target RGB-T anti-UAV detection; reproducibility artifact for a manuscript under review
 
-### UAV and Anti-UAV Intelligence
+### Robotics and Embodied Intelligence
 
-I study low-altitude intelligent sensing, UAV-view perception, and anti-UAV detection. My current direction includes detector-VLM collaboration, lightweight VLM-assisted target verification, and RGB-T anti-drone perception.
+- [**speculative-mechatronics**](https://github.com/Hollis36/speculative-mechatronics) — commitment policies for physical actions under LLM latency, on a MacBook-scale testbed
+- [**voice-cmd-correction**](https://github.com/Hollis36/voice-cmd-correction) — cheap, robust correction of noisy voice commands for restricted-vocabulary robotics
+- [**newton-vla-demo**](https://github.com/Hollis36/newton-vla-demo) — a 3-minute classroom demo of embodied AI on a laptop: Newton physics + an LLM as the VLA brain
+- [**robotic-manipulation-learning**](https://github.com/Hollis36/robotic-manipulation-learning) — chapter notes, derivations and runnable cases for robotic manipulation
 
-Representative repositories:
+### Industrial Robots and Smart Manufacturing
 
-- `smolvlm-anti-drone` — lightweight VLM-assisted anti-drone perception
-- `VLM-UAV` — vision-language models for UAV perception
-- `anti-drone-detection` — anti-UAV detection engineering baseline
-- `iris-anti-uav` — infrared / visible anti-UAV sensing branch
+- [**abb-offline-coder**](https://github.com/Hollis36/abb-offline-coder) — offline AI assistant that turns Chinese task descriptions into ABB painting-robot RAPID programs · [demo](https://hollis36.github.io/abb-offline-coder/)
 
-### Industrial Embodied Intelligence and Robotics
+### Research Notes and Tooling
 
-I am building a research line that connects robot perception, simulation, planning, VLA models, manipulation, and real industrial deployment. The long-term goal is to develop reliable embodied AI systems for manufacturing and engineering environments.
+- [**cv-multimodal-research-roadmap**](https://github.com/Hollis36/cv-multimodal-research-roadmap) — research roadmap for multimodal learning and vision-language reasoning
+- [**PhysicsSimResearch**](https://github.com/Hollis36/PhysicsSimResearch) — survey notes on frontier physics simulation and intelligent sensing
+- [**claude-skill**](https://github.com/Hollis36/claude-skill) — a curated collection of Claude Code skills
 
-Representative repositories:
-
-- `robot-sim-vla-experiments` — simulation experiments for robot learning and VLA models
-- `newton-vla-demo` — VLA demonstration branch
-- `robotic-manipulation-learning` — robot manipulation learning
-- `abb-offline-coder` — offline programming and code generation for ABB industrial robots
-
-### Smart Manufacturing and Engineering AI
-
-I work on AI methods for process optimization, dynamic monitoring, defect generation, error compensation, and physics-informed modeling in manufacturing systems.
-
-Representative repositories:
-
-- `Paper1_DefectGeneration` — defect generation research
-- `Paper3_DynamicMonitoring` — dynamic monitoring research
-- `Paper5_ProcessOptimization` — process optimization research
-- `Paper6_ErrorCompensation` — error compensation research
-- `PhysicsSimResearch` — physics simulation and modeling research
+Ongoing work on RGB-T / RGB-D fusion, anti-UAV perception, robot VLA experiments, and manufacturing AI (defect generation, dynamic monitoring, process optimization, error compensation) lives in private repositories and will be released with the corresponding papers.
 
 ## Selected Publications
 
 - **Sensors and Actuators B: Chemical** (2026, CAS Region 1) — *Deep learning enabled magnetic/rare-earth hybrid nanorobots for multi-modal bioimaging and temperature sensing* · co-first author · [DOI](https://doi.org/10.1016/j.snb.2026.139673)
 - **Laser & Photonics Reviews** (2025) — *Dual-heterovalent codoping enables bright and rapid X-ray excited persistent luminescence for noise-free 3D imaging* · [DOI](https://doi.org/10.1002/lpor.202502875)
 - **Journal of Mechanical Engineering** (2025) — *Physical information fusion of multi-modal data for online fault monitoring of selective laser melting integrated manufacturing*
-
-## Research Portfolio Structure
-
-```text
-Multimodal Perception
-├── DroneVehicle
-├── MFARainbowNet
-├── GPE-CAFM-RGBD-DefectDetection
-└── cv-multimodal-research-roadmap
-
-UAV and Anti-UAV Intelligence
-├── smolvlm-anti-drone
-├── VLM-UAV
-├── anti-drone-detection
-├── iris-anti-uav
-└── rgbt-uav-dataset-paper-plan
-
-Industrial Embodied Intelligence
-├── robot-sim-vla-experiments
-├── newton-vla-demo
-├── robotic-manipulation-learning
-├── openclaw
-└── abb-offline-coder
-
-Smart Manufacturing and Engineering AI
-├── Paper5_ProcessOptimization
-├── Paper6_ErrorCompensation
-├── Paper3_DynamicMonitoring
-├── Paper1_DefectGeneration
-└── PhysicsSimResearch
-
-Research Infrastructure
-├── research-template
-├── Research-All
-├── Reporter-ME-AI
-├── claude-skill
-├── codemem
-└── TokenForge
-```
 
 ## Current Goal
 
@@ -117,10 +61,5 @@ The emphasis is on turning each repository into a reusable research asset with c
 ## Links
 
 - **Personal site** — https://hollis36.github.io/
-- **CV** — https://hollis36.github.io/cv.pdf
 - **ORCID** — [0009-0007-8422-3955](https://orcid.org/0009-0007-8422-3955)
 - **Email** — peifu@stu.xidian.edu.cn
-
----
-
-Pinned work below shows selected repositories from this research portfolio.
